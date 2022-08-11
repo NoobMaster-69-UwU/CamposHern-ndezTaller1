@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+    height: 100%;
+}
+
+body  {
+    /* Old browsers */
+    background: #8e0209; 
+    /* FF3.6+ */
+    background: -moz-linear-gradient(top, #8e0209 0%, #7f0215 45%, #59000e 100%); 
+    /* Chrome,Safari4+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#8e0209), color-stop(45%,#7f0215), color-stop(100%,#59000e)); 
+    /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* IE10+ */
+    background: -ms-linear-gradient(top, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* W3C */
+    background: linear-gradient(to bottom, #8e0209 0%,#7f0215 45%,#59000e 100%); 
+    /* IE6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e0209', endColorstr='#59000e',GradientType=0 ); 
+    color: #f6e6b4;
+    font: Normal 0.9em 'Roboto',Tahoma,Helvetica,"Liberation Sans";
+}
+
+h1    {
+    font: Bold 1.2em 'Roboto',Tahoma,Helvetica,"Liberation Sans";
+    font-weight: 700;
+    text-align: center;
+}
+
+table{
+	border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 1em 'Roboto',Arial,Helvetica,"Liberation Sans";
+    margin: 16px auto;
+}
+
+thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 12px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+thead th {
+    background-color: #CFAD70;
+    border: none;
+    text-shadow: 1px 1px 1px #ccc;
+    color: #333;
+}
+
+thead th:first-child {
+    border-radius: 10px 0 0 0;
+}
+
+thead th:last-child {
+    border-radius: 0 10px 0 0;
+}
+
+tbody td {
+    border: none;
+    border-top: solid 1px #957030;
+    background-color: #EED592;
+}
+
+tbody .number {
+    text-align: center;
+}
